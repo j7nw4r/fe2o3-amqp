@@ -1,1 +1,0 @@
-{"id":"2.6.7","title":"Flow Control","status":"violations-filed","audited_at":"2026-08-20T15:00:00Z","code_sha":"deadbeef0000000000000000000000000000dead","statements":11,"findings":[{"issue":101,"title":"probe finding","severity":"must","claim":"probe"}],"notes":"probe record","auditor":"spec-investigator"}
