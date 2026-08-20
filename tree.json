@@ -4,6 +4,7 @@
   "parts": {
     "types": "3",
     "transport": "4",
-    "messaging": "5"
+    "messaging": "5",
+    "transactions": "6"
   }
 }
