@@ -3,6 +3,7 @@
   "repo": "j7nw4r/fe2o3-amqp",
   "parts": {
     "types": "3",
-    "transport": "4"
+    "transport": "4",
+    "messaging": "5"
   }
 }
