@@ -20,7 +20,7 @@ Code at `4df72b3c`. 2 of 164 units audited.
 
 Audited against an older commit. Re-audit with `--recheck`.
 
-`1.1.1` `2.6.7`
+`2.6.7`
 
 ## Open findings
 
