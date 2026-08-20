@@ -2,6 +2,7 @@
   "root": "2",
   "repo": "j7nw4r/fe2o3-amqp",
   "parts": {
-    "types": "3"
+    "types": "3",
+    "transport": "4"
   }
 }
