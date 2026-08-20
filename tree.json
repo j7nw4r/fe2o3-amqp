@@ -5,6 +5,7 @@
     "types": "3",
     "transport": "4",
     "messaging": "5",
-    "transactions": "6"
+    "transactions": "6",
+    "security": "7"
   }
 }
