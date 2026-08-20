@@ -1,4 +1,7 @@
 {
   "root": "2",
-  "repo": "j7nw4r/fe2o3-amqp"
+  "repo": "j7nw4r/fe2o3-amqp",
+  "parts": {
+    "types": "3"
+  }
 }
