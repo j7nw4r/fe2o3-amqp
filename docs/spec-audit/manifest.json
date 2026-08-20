@@ -1,0 +1,2984 @@
+{
+  "spec": "OASIS AMQP Version 1.0, OASIS Standard, 29 October 2012",
+  "base_url": "https://docs.oasis-open.org/amqp/core/v1.0/os/",
+  "generated_by": "docs/spec-audit/bin/gen-manifest.py",
+  "unit_count": 164,
+  "units": [
+    {
+      "id": "1.1.1",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Primitive Types",
+      "anchor": "doc-idp36656",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp36656",
+      "kind": "prose",
+      "section": "1.1",
+      "section_title": "Type System",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/value/",
+        "serde_amqp/src/described.rs",
+        "serde_amqp/src/descriptor.rs",
+        "serde_amqp/src/primitives/mod.rs"
+      ]
+    },
+    {
+      "id": "1.1.2",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Described Types",
+      "anchor": "doc-idp38080",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp38080",
+      "kind": "prose",
+      "section": "1.1",
+      "section_title": "Type System",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/value/",
+        "serde_amqp/src/described.rs",
+        "serde_amqp/src/descriptor.rs",
+        "serde_amqp/src/primitives/mod.rs"
+      ]
+    },
+    {
+      "id": "1.1.3",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Composite Types",
+      "anchor": "doc-idp42752",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp42752",
+      "kind": "prose",
+      "section": "1.1",
+      "section_title": "Type System",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/value/",
+        "serde_amqp/src/described.rs",
+        "serde_amqp/src/descriptor.rs",
+        "serde_amqp/src/primitives/mod.rs"
+      ]
+    },
+    {
+      "id": "1.1.4",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Restricted Types",
+      "anchor": "doc-idp46208",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp46208",
+      "kind": "prose",
+      "section": "1.1",
+      "section_title": "Type System",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/value/",
+        "serde_amqp/src/described.rs",
+        "serde_amqp/src/descriptor.rs",
+        "serde_amqp/src/primitives/mod.rs"
+      ]
+    },
+    {
+      "id": "1.2.1",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Fixed Width",
+      "anchor": "doc-idp80944",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp80944",
+      "kind": "prose",
+      "section": "1.2",
+      "section_title": "Type Encodings",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/fixed_width.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/size_ser.rs"
+      ]
+    },
+    {
+      "id": "1.2.2",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Variable Width",
+      "anchor": "doc-idp82960",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp82960",
+      "kind": "prose",
+      "section": "1.2",
+      "section_title": "Type Encodings",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/fixed_width.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/size_ser.rs"
+      ]
+    },
+    {
+      "id": "1.2.3",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Compound",
+      "anchor": "doc-idp85472",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp85472",
+      "kind": "prose",
+      "section": "1.2",
+      "section_title": "Type Encodings",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/fixed_width.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/size_ser.rs"
+      ]
+    },
+    {
+      "id": "1.2.4",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Array",
+      "anchor": "doc-idp88640",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp88640",
+      "kind": "prose",
+      "section": "1.2",
+      "section_title": "Type Encodings",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/fixed_width.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/size_ser.rs"
+      ]
+    },
+    {
+      "id": "1.3.1",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Primitive Type Notation",
+      "anchor": "doc-idp100352",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp100352",
+      "kind": "prose",
+      "section": "1.3",
+      "section_title": "Type Notation",
+      "normative": false,
+      "surfaces": [
+        "serde_amqp/src/",
+        "serde_amqp_derive/src/"
+      ]
+    },
+    {
+      "id": "1.3.2",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Composite Type Notation",
+      "anchor": "doc-idp108672",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp108672",
+      "kind": "prose",
+      "section": "1.3",
+      "section_title": "Type Notation",
+      "normative": false,
+      "surfaces": [
+        "serde_amqp/src/",
+        "serde_amqp_derive/src/"
+      ]
+    },
+    {
+      "id": "1.3.3",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Descriptor Notation",
+      "anchor": "doc-idp111280",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp111280",
+      "kind": "prose",
+      "section": "1.3",
+      "section_title": "Type Notation",
+      "normative": false,
+      "surfaces": [
+        "serde_amqp/src/",
+        "serde_amqp_derive/src/"
+      ]
+    },
+    {
+      "id": "1.3.4",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Field Notation",
+      "anchor": "doc-idp115568",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp115568",
+      "kind": "prose",
+      "section": "1.3",
+      "section_title": "Type Notation",
+      "normative": false,
+      "surfaces": [
+        "serde_amqp/src/",
+        "serde_amqp_derive/src/"
+      ]
+    },
+    {
+      "id": "1.3.5",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Restricted Type Notation",
+      "anchor": "doc-idp125312",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#doc-idp125312",
+      "kind": "prose",
+      "section": "1.3",
+      "section_title": "Type Notation",
+      "normative": false,
+      "surfaces": [
+        "serde_amqp/src/",
+        "serde_amqp_derive/src/"
+      ]
+    },
+    {
+      "id": "1.4",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Composite Type Representation",
+      "anchor": "section-composite-type-representation",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#section-composite-type-representation",
+      "kind": "section",
+      "section": "1.4",
+      "section_title": "Composite Type Representation",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/described.rs",
+        "serde_amqp_derive/src/",
+        "serde_amqp/tests/described_list.rs",
+        "serde_amqp/tests/described_basic.rs"
+      ]
+    },
+    {
+      "id": "1.5",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Descriptor Values",
+      "anchor": "section-descriptor-values",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#section-descriptor-values",
+      "kind": "section",
+      "section": "1.5",
+      "section_title": "Descriptor Values",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/descriptor.rs",
+        "serde_amqp/src/constants.rs"
+      ]
+    },
+    {
+      "id": "1.6.1",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Null",
+      "anchor": "type-null",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-null",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.2",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Boolean",
+      "anchor": "type-boolean",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-boolean",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.3",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Ubyte",
+      "anchor": "type-ubyte",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-ubyte",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.4",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Ushort",
+      "anchor": "type-ushort",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-ushort",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.5",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Uint",
+      "anchor": "type-uint",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-uint",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.6",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Ulong",
+      "anchor": "type-ulong",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-ulong",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.7",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Byte",
+      "anchor": "type-byte",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-byte",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.8",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Short",
+      "anchor": "type-short",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-short",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.9",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Int",
+      "anchor": "type-int",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-int",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.10",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Long",
+      "anchor": "type-long",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-long",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.11",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Float",
+      "anchor": "type-float",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-float",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.12",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Double",
+      "anchor": "type-double",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-double",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.13",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Decimal32",
+      "anchor": "type-decimal32",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-decimal32",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/decimal.rs"
+      ]
+    },
+    {
+      "id": "1.6.14",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Decimal64",
+      "anchor": "type-decimal64",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-decimal64",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/decimal.rs"
+      ]
+    },
+    {
+      "id": "1.6.15",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Decimal128",
+      "anchor": "type-decimal128",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-decimal128",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/decimal.rs"
+      ]
+    },
+    {
+      "id": "1.6.16",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Char",
+      "anchor": "type-char",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-char",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.17",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Timestamp",
+      "anchor": "type-timestamp",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-timestamp",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/timestamp.rs"
+      ]
+    },
+    {
+      "id": "1.6.18",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Uuid",
+      "anchor": "type-uuid",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-uuid",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/uuid.rs"
+      ]
+    },
+    {
+      "id": "1.6.19",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Binary",
+      "anchor": "type-binary",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-binary",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/binary_ref.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs"
+      ]
+    },
+    {
+      "id": "1.6.20",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "String",
+      "anchor": "type-string",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-string",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.21",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Symbol",
+      "anchor": "type-symbol",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-symbol",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/symbol.rs"
+      ]
+    },
+    {
+      "id": "1.6.22",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "List",
+      "anchor": "type-list",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-list",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/",
+        "serde_amqp/src/format_code.rs",
+        "serde_amqp/src/ser.rs",
+        "serde_amqp/src/de.rs",
+        "serde_amqp/src/value/"
+      ]
+    },
+    {
+      "id": "1.6.23",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Map",
+      "anchor": "type-map",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-map",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/map.rs"
+      ]
+    },
+    {
+      "id": "1.6.24",
+      "part": 1,
+      "part_slug": "types",
+      "part_title": "Types",
+      "title": "Array",
+      "anchor": "type-array",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-types-v1.0-os.html#type-array",
+      "kind": "type",
+      "section": "1.6",
+      "section_title": "Primitive Type Definitions",
+      "normative": true,
+      "surfaces": [
+        "serde_amqp/src/primitives/array.rs"
+      ]
+    },
+    {
+      "id": "2.1.1",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "conceptual model",
+      "anchor": "doc-idp2176",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp2176",
+      "kind": "prose",
+      "section": "2.1",
+      "section_title": "Transport",
+      "normative": false,
+      "surfaces": [
+        "fe2o3-amqp/src/",
+        "fe2o3-amqp-types/src/"
+      ]
+    },
+    {
+      "id": "2.1.2",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "communication endpoints",
+      "anchor": "doc-idp48736",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp48736",
+      "kind": "prose",
+      "section": "2.1",
+      "section_title": "Transport",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/",
+        "fe2o3-amqp-types/src/"
+      ]
+    },
+    {
+      "id": "2.1.3",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "protocol frames",
+      "anchor": "doc-idp31280",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp31280",
+      "kind": "prose",
+      "section": "2.1",
+      "section_title": "Transport",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/",
+        "fe2o3-amqp-types/src/"
+      ]
+    },
+    {
+      "id": "2.2",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Version Negotiation",
+      "anchor": "section-version-negotiation",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#section-version-negotiation",
+      "kind": "section",
+      "section": "2.2",
+      "section_title": "Version Negotiation",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/transport/protocol_header.rs",
+        "fe2o3-amqp/src/connection/mod.rs"
+      ]
+    },
+    {
+      "id": "2.3.1",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Frame Layout",
+      "anchor": "doc-idp124752",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp124752",
+      "kind": "prose",
+      "section": "2.3",
+      "section_title": "Framing",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/frames/",
+        "fe2o3-amqp/src/transport/mod.rs"
+      ]
+    },
+    {
+      "id": "2.3.2",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "AMQP Frames",
+      "anchor": "doc-idp134416",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp134416",
+      "kind": "prose",
+      "section": "2.3",
+      "section_title": "Framing",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/frames/",
+        "fe2o3-amqp/src/transport/mod.rs"
+      ]
+    },
+    {
+      "id": "2.4.1",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Opening a Connection",
+      "anchor": "doc-idp150480",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp150480",
+      "kind": "prose",
+      "section": "2.4",
+      "section_title": "Connections",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/connection/",
+        "fe2o3-amqp/src/endpoint/connection.rs",
+        "fe2o3-amqp/src/acceptor/connection.rs",
+        "fe2o3-amqp-types/src/states.rs"
+      ]
+    },
+    {
+      "id": "2.4.2",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Pipelined Open",
+      "anchor": "doc-idp157520",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp157520",
+      "kind": "prose",
+      "section": "2.4",
+      "section_title": "Connections",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/connection/",
+        "fe2o3-amqp/src/endpoint/connection.rs",
+        "fe2o3-amqp/src/acceptor/connection.rs",
+        "fe2o3-amqp-types/src/states.rs"
+      ]
+    },
+    {
+      "id": "2.4.3",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Closing a Connection",
+      "anchor": "doc-idp162944",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp162944",
+      "kind": "prose",
+      "section": "2.4",
+      "section_title": "Connections",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/connection/",
+        "fe2o3-amqp/src/endpoint/connection.rs",
+        "fe2o3-amqp/src/acceptor/connection.rs",
+        "fe2o3-amqp-types/src/states.rs"
+      ]
+    },
+    {
+      "id": "2.4.4",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Simultaneous Close",
+      "anchor": "doc-idp170544",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp170544",
+      "kind": "prose",
+      "section": "2.4",
+      "section_title": "Connections",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/connection/",
+        "fe2o3-amqp/src/endpoint/connection.rs",
+        "fe2o3-amqp/src/acceptor/connection.rs",
+        "fe2o3-amqp-types/src/states.rs"
+      ]
+    },
+    {
+      "id": "2.4.5",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Idle Timeout of a Connection",
+      "anchor": "doc-doc-idle-time-out",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-doc-idle-time-out",
+      "kind": "prose",
+      "section": "2.4",
+      "section_title": "Connections",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/connection/heartbeat.rs",
+        "fe2o3-amqp/src/connection/engine.rs",
+        "fe2o3-amqp/src/transport/mod.rs"
+      ]
+    },
+    {
+      "id": "2.4.6",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Connection States",
+      "anchor": "doc-idp184736",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp184736",
+      "kind": "prose",
+      "section": "2.4",
+      "section_title": "Connections",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/states.rs",
+        "fe2o3-amqp/src/connection/engine.rs"
+      ]
+    },
+    {
+      "id": "2.4.7",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Connection State Diagram",
+      "anchor": "doc-idp211568",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp211568",
+      "kind": "prose",
+      "section": "2.4",
+      "section_title": "Connections",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/states.rs",
+        "fe2o3-amqp/src/connection/engine.rs"
+      ]
+    },
+    {
+      "id": "2.5.1",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Establishing a Session",
+      "anchor": "doc-idp223280",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp223280",
+      "kind": "prose",
+      "section": "2.5",
+      "section_title": "Sessions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/session/",
+        "fe2o3-amqp/src/endpoint/session.rs",
+        "fe2o3-amqp/src/acceptor/session.rs",
+        "fe2o3-amqp-types/src/states.rs"
+      ]
+    },
+    {
+      "id": "2.5.2",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Ending a Session",
+      "anchor": "doc-idp230944",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp230944",
+      "kind": "prose",
+      "section": "2.5",
+      "section_title": "Sessions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/session/",
+        "fe2o3-amqp/src/endpoint/session.rs",
+        "fe2o3-amqp/src/acceptor/session.rs",
+        "fe2o3-amqp-types/src/states.rs"
+      ]
+    },
+    {
+      "id": "2.5.3",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Simultaneous End",
+      "anchor": "doc-idp235408",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp235408",
+      "kind": "prose",
+      "section": "2.5",
+      "section_title": "Sessions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/session/",
+        "fe2o3-amqp/src/endpoint/session.rs",
+        "fe2o3-amqp/src/acceptor/session.rs",
+        "fe2o3-amqp-types/src/states.rs"
+      ]
+    },
+    {
+      "id": "2.5.4",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Session Errors",
+      "anchor": "doc-idp239696",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp239696",
+      "kind": "prose",
+      "section": "2.5",
+      "section_title": "Sessions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/session/",
+        "fe2o3-amqp/src/endpoint/session.rs",
+        "fe2o3-amqp/src/acceptor/session.rs",
+        "fe2o3-amqp-types/src/states.rs"
+      ]
+    },
+    {
+      "id": "2.5.5",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Session States",
+      "anchor": "doc-idp243424",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp243424",
+      "kind": "prose",
+      "section": "2.5",
+      "section_title": "Sessions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/session/",
+        "fe2o3-amqp/src/endpoint/session.rs",
+        "fe2o3-amqp/src/acceptor/session.rs",
+        "fe2o3-amqp-types/src/states.rs"
+      ]
+    },
+    {
+      "id": "2.5.6",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Session Flow Control",
+      "anchor": "doc-session-flow-control",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-session-flow-control",
+      "kind": "prose",
+      "section": "2.5",
+      "section_title": "Sessions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/session/",
+        "fe2o3-amqp/src/endpoint/session.rs",
+        "fe2o3-amqp/src/acceptor/session.rs",
+        "fe2o3-amqp-types/src/states.rs"
+      ]
+    },
+    {
+      "id": "2.6.1",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Naming a Link",
+      "anchor": "doc-idp298752",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp298752",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/",
+        "fe2o3-amqp/src/endpoint/link.rs",
+        "fe2o3-amqp/src/acceptor/link.rs"
+      ]
+    },
+    {
+      "id": "2.6.2",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Link Handles",
+      "anchor": "doc-link-handles",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-link-handles",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/mod.rs",
+        "fe2o3-amqp/src/session/mod.rs"
+      ]
+    },
+    {
+      "id": "2.6.3",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Establishing or Resuming a Link",
+      "anchor": "doc-idp315568",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp315568",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/builder.rs",
+        "fe2o3-amqp/src/link/state.rs",
+        "fe2o3-amqp/src/acceptor/local_sender_link.rs",
+        "fe2o3-amqp/src/acceptor/local_receiver_link.rs"
+      ]
+    },
+    {
+      "id": "2.6.4",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Detaching and Reattaching a Link",
+      "anchor": "doc-idp339696",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp339696",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/",
+        "fe2o3-amqp/src/endpoint/link.rs",
+        "fe2o3-amqp/src/acceptor/link.rs"
+      ]
+    },
+    {
+      "id": "2.6.5",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Link Errors",
+      "anchor": "doc-idp348080",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp348080",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/",
+        "fe2o3-amqp/src/endpoint/link.rs",
+        "fe2o3-amqp/src/acceptor/link.rs"
+      ]
+    },
+    {
+      "id": "2.6.6",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Closing a Link",
+      "anchor": "doc-closing-a-link",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-closing-a-link",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/",
+        "fe2o3-amqp/src/endpoint/link.rs",
+        "fe2o3-amqp/src/acceptor/link.rs"
+      ]
+    },
+    {
+      "id": "2.6.7",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Flow Control",
+      "anchor": "doc-flow-control",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-flow-control",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/sender_link.rs",
+        "fe2o3-amqp/src/link/receiver_link.rs",
+        "fe2o3-amqp/src/session/engine.rs"
+      ]
+    },
+    {
+      "id": "2.6.8",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Synchronous Get",
+      "anchor": "doc-idp416352",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp416352",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/",
+        "fe2o3-amqp/src/endpoint/link.rs",
+        "fe2o3-amqp/src/acceptor/link.rs"
+      ]
+    },
+    {
+      "id": "2.6.9",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Asynchronous Notification",
+      "anchor": "doc-idp424576",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp424576",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/",
+        "fe2o3-amqp/src/endpoint/link.rs",
+        "fe2o3-amqp/src/acceptor/link.rs"
+      ]
+    },
+    {
+      "id": "2.6.10",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Stopping a Link",
+      "anchor": "doc-idp429232",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp429232",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/",
+        "fe2o3-amqp/src/endpoint/link.rs",
+        "fe2o3-amqp/src/acceptor/link.rs"
+      ]
+    },
+    {
+      "id": "2.6.11",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Messages",
+      "anchor": "doc-idp434960",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp434960",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/",
+        "fe2o3-amqp/src/endpoint/link.rs",
+        "fe2o3-amqp/src/acceptor/link.rs"
+      ]
+    },
+    {
+      "id": "2.6.12",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Transferring a Message",
+      "anchor": "doc-idp438000",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp438000",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/",
+        "fe2o3-amqp/src/endpoint/link.rs",
+        "fe2o3-amqp/src/acceptor/link.rs"
+      ]
+    },
+    {
+      "id": "2.6.13",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Resuming Deliveries",
+      "anchor": "doc-resuming-deliveries",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-resuming-deliveries",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/resumption.rs",
+        "fe2o3-amqp/src/link/delivery.rs"
+      ]
+    },
+    {
+      "id": "2.6.14",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Transferring Large Messages",
+      "anchor": "doc-idp484080",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#doc-idp484080",
+      "kind": "prose",
+      "section": "2.6",
+      "section_title": "Links",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/link/incomplete_transfer.rs",
+        "fe2o3-amqp/src/link/delivery.rs"
+      ]
+    },
+    {
+      "id": "2.7.1",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Open",
+      "anchor": "type-open",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-open",
+      "kind": "type",
+      "section": "2.7",
+      "section_title": "Performatives",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/performatives/",
+        "fe2o3-amqp/src/frames/amqp.rs"
+      ]
+    },
+    {
+      "id": "2.7.2",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Begin",
+      "anchor": "type-begin",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-begin",
+      "kind": "type",
+      "section": "2.7",
+      "section_title": "Performatives",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/performatives/",
+        "fe2o3-amqp/src/frames/amqp.rs"
+      ]
+    },
+    {
+      "id": "2.7.3",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Attach",
+      "anchor": "type-attach",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-attach",
+      "kind": "type",
+      "section": "2.7",
+      "section_title": "Performatives",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/performatives/",
+        "fe2o3-amqp/src/frames/amqp.rs"
+      ]
+    },
+    {
+      "id": "2.7.4",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Flow",
+      "anchor": "type-flow",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-flow",
+      "kind": "type",
+      "section": "2.7",
+      "section_title": "Performatives",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/performatives/",
+        "fe2o3-amqp/src/frames/amqp.rs"
+      ]
+    },
+    {
+      "id": "2.7.5",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Transfer",
+      "anchor": "type-transfer",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-transfer",
+      "kind": "type",
+      "section": "2.7",
+      "section_title": "Performatives",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/performatives/",
+        "fe2o3-amqp/src/frames/amqp.rs"
+      ]
+    },
+    {
+      "id": "2.7.6",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Disposition",
+      "anchor": "type-disposition",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-disposition",
+      "kind": "type",
+      "section": "2.7",
+      "section_title": "Performatives",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/performatives/",
+        "fe2o3-amqp/src/frames/amqp.rs"
+      ]
+    },
+    {
+      "id": "2.7.7",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Detach",
+      "anchor": "type-detach",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-detach",
+      "kind": "type",
+      "section": "2.7",
+      "section_title": "Performatives",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/performatives/",
+        "fe2o3-amqp/src/frames/amqp.rs"
+      ]
+    },
+    {
+      "id": "2.7.8",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "End",
+      "anchor": "type-end",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-end",
+      "kind": "type",
+      "section": "2.7",
+      "section_title": "Performatives",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/performatives/",
+        "fe2o3-amqp/src/frames/amqp.rs"
+      ]
+    },
+    {
+      "id": "2.7.9",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Close",
+      "anchor": "type-close",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-close",
+      "kind": "type",
+      "section": "2.7",
+      "section_title": "Performatives",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/performatives/",
+        "fe2o3-amqp/src/frames/amqp.rs"
+      ]
+    },
+    {
+      "id": "2.8.1",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Role",
+      "anchor": "type-role",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-role",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.2",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Sender Settle Mode",
+      "anchor": "type-sender-settle-mode",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-sender-settle-mode",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.3",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Receiver Settle Mode",
+      "anchor": "type-receiver-settle-mode",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-receiver-settle-mode",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.4",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Handle",
+      "anchor": "type-handle",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-handle",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.5",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Seconds",
+      "anchor": "type-seconds",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-seconds",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.6",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Milliseconds",
+      "anchor": "type-milliseconds",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-milliseconds",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.7",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Delivery Tag",
+      "anchor": "type-delivery-tag",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-delivery-tag",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.8",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Delivery Number",
+      "anchor": "type-delivery-number",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-delivery-number",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.9",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Transfer Number",
+      "anchor": "type-transfer-number",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-transfer-number",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.10",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Sequence No",
+      "anchor": "type-sequence-no",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-sequence-no",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.11",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Message Format",
+      "anchor": "type-message-format",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-message-format",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.12",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Ietf Language Tag",
+      "anchor": "type-ietf-language-tag",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-ietf-language-tag",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.13",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Fields",
+      "anchor": "type-fields",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-fields",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.14",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Error",
+      "anchor": "type-error",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-error",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.15",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Amqp Error",
+      "anchor": "type-amqp-error",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-amqp-error",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.16",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Connection Error",
+      "anchor": "type-connection-error",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-connection-error",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.17",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Session Error",
+      "anchor": "type-session-error",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-session-error",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.18",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Link Error",
+      "anchor": "type-link-error",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#type-link-error",
+      "kind": "type",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "2.8.19",
+      "part": 2,
+      "part_slug": "transport",
+      "part_title": "Transport",
+      "title": "Constant Definitions",
+      "anchor": "definition-idp861488",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transport-v1.0-os.html#definition-idp861488",
+      "kind": "constants",
+      "section": "2.8",
+      "section_title": "Definitions",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/definitions/"
+      ]
+    },
+    {
+      "id": "3.1",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Introduction",
+      "anchor": "section-introduction",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#section-introduction",
+      "kind": "section",
+      "section": "3.1",
+      "section_title": "Introduction",
+      "normative": false,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/"
+      ]
+    },
+    {
+      "id": "3.2.1",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Header",
+      "anchor": "type-header",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-header",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.2",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Delivery Annotations",
+      "anchor": "type-delivery-annotations",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-delivery-annotations",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.3",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Message Annotations",
+      "anchor": "type-message-annotations",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-message-annotations",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.4",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Properties",
+      "anchor": "type-properties",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-properties",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.5",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Application Properties",
+      "anchor": "type-application-properties",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-application-properties",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.6",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Data",
+      "anchor": "type-data",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-data",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.7",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Amqp Sequence",
+      "anchor": "type-amqp-sequence",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-amqp-sequence",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.8",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Amqp Value",
+      "anchor": "type-amqp-value",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-amqp-value",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.9",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Footer",
+      "anchor": "type-footer",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-footer",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.10",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Annotations",
+      "anchor": "type-annotations",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-annotations",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.11",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Message Id Ulong",
+      "anchor": "type-message-id-ulong",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-message-id-ulong",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.12",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Message Id Uuid",
+      "anchor": "type-message-id-uuid",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-message-id-uuid",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.13",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Message Id Binary",
+      "anchor": "type-message-id-binary",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-message-id-binary",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.14",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Message Id String",
+      "anchor": "type-message-id-string",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-message-id-string",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.15",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Address String",
+      "anchor": "type-address-string",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-address-string",
+      "kind": "type",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.2.16",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Constant Definitions",
+      "anchor": "definition-idp216976",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#definition-idp216976",
+      "kind": "constants",
+      "section": "3.2",
+      "section_title": "Message Format",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/format/",
+        "fe2o3-amqp-types/src/messaging/message/",
+        "fe2o3-amqp-types/src/messaging/body_section.rs"
+      ]
+    },
+    {
+      "id": "3.3",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Distribution Nodes",
+      "anchor": "section-distribution-nodes",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#section-distribution-nodes",
+      "kind": "section",
+      "section": "3.3",
+      "section_title": "Distribution Nodes",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/dist_mode.rs",
+        "fe2o3-amqp-types/src/messaging/source.rs"
+      ]
+    },
+    {
+      "id": "3.4.1",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Received",
+      "anchor": "type-received",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-received",
+      "kind": "type",
+      "section": "3.4",
+      "section_title": "Delivery State",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/delivery_state/",
+        "fe2o3-amqp/src/link/delivery.rs"
+      ]
+    },
+    {
+      "id": "3.4.2",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Accepted",
+      "anchor": "type-accepted",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-accepted",
+      "kind": "type",
+      "section": "3.4",
+      "section_title": "Delivery State",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/delivery_state/",
+        "fe2o3-amqp/src/link/delivery.rs"
+      ]
+    },
+    {
+      "id": "3.4.3",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Rejected",
+      "anchor": "type-rejected",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-rejected",
+      "kind": "type",
+      "section": "3.4",
+      "section_title": "Delivery State",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/delivery_state/",
+        "fe2o3-amqp/src/link/delivery.rs"
+      ]
+    },
+    {
+      "id": "3.4.4",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Released",
+      "anchor": "type-released",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-released",
+      "kind": "type",
+      "section": "3.4",
+      "section_title": "Delivery State",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/delivery_state/",
+        "fe2o3-amqp/src/link/delivery.rs"
+      ]
+    },
+    {
+      "id": "3.4.5",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Modified",
+      "anchor": "type-modified",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-modified",
+      "kind": "type",
+      "section": "3.4",
+      "section_title": "Delivery State",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/delivery_state/",
+        "fe2o3-amqp/src/link/delivery.rs"
+      ]
+    },
+    {
+      "id": "3.4.6",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Resuming Deliveries Using Delivery States",
+      "anchor": "doc-more-resuming-deliveries",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#doc-more-resuming-deliveries",
+      "kind": "prose",
+      "section": "3.4",
+      "section_title": "Delivery State",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/delivery_state/",
+        "fe2o3-amqp/src/link/delivery.rs"
+      ]
+    },
+    {
+      "id": "3.5.1",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Filtering Messages",
+      "anchor": "doc-idp326640",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#doc-idp326640",
+      "kind": "prose",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.2",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Distribution Modes",
+      "anchor": "doc-idp328592",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#doc-idp328592",
+      "kind": "prose",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.3",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Source",
+      "anchor": "type-source",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-source",
+      "kind": "type",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.4",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Target",
+      "anchor": "type-target",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-target",
+      "kind": "type",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.5",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Terminus Durability",
+      "anchor": "type-terminus-durability",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-terminus-durability",
+      "kind": "type",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.6",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Terminus Expiry Policy",
+      "anchor": "type-terminus-expiry-policy",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-terminus-expiry-policy",
+      "kind": "type",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.7",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Std Dist Mode",
+      "anchor": "type-std-dist-mode",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-std-dist-mode",
+      "kind": "type",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.8",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Filter Set",
+      "anchor": "type-filter-set",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-filter-set",
+      "kind": "type",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.9",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Node Properties",
+      "anchor": "type-node-properties",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-node-properties",
+      "kind": "type",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.10",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Delete On Close",
+      "anchor": "type-delete-on-close",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-delete-on-close",
+      "kind": "type",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.11",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Delete On No Links",
+      "anchor": "type-delete-on-no-links",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-delete-on-no-links",
+      "kind": "type",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.12",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Delete On No Messages",
+      "anchor": "type-delete-on-no-messages",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-delete-on-no-messages",
+      "kind": "type",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "3.5.13",
+      "part": 3,
+      "part_slug": "messaging",
+      "part_title": "Messaging",
+      "title": "Delete On No Links Or Messages",
+      "anchor": "type-delete-on-no-links-or-messages",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-delete-on-no-links-or-messages",
+      "kind": "type",
+      "section": "3.5",
+      "section_title": "Sources and Targets",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/messaging/source.rs",
+        "fe2o3-amqp-types/src/messaging/target.rs",
+        "fe2o3-amqp-types/src/messaging/terminus_durability.rs",
+        "fe2o3-amqp-types/src/messaging/term_expiry_policy.rs",
+        "fe2o3-amqp-types/src/messaging/lifetime_policy.rs",
+        "fe2o3-amqp/src/link/source.rs",
+        "fe2o3-amqp/src/link/target_archetype.rs"
+      ]
+    },
+    {
+      "id": "4.1",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Transactional Messaging",
+      "anchor": "section-transactions",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#section-transactions",
+      "kind": "section",
+      "section": "4.1",
+      "section_title": "Transactional Messaging",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/transaction/",
+        "fe2o3-amqp-types/src/transaction/"
+      ]
+    },
+    {
+      "id": "4.2",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Declaring a Transaction",
+      "anchor": "section-txn-declare",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#section-txn-declare",
+      "kind": "section",
+      "section": "4.2",
+      "section_title": "Declaring a Transaction",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/transaction/",
+        "fe2o3-amqp-types/src/transaction/"
+      ]
+    },
+    {
+      "id": "4.3",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Discharging a Transaction",
+      "anchor": "section-txn-discharge",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#section-txn-discharge",
+      "kind": "section",
+      "section": "4.3",
+      "section_title": "Discharging a Transaction",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/transaction/",
+        "fe2o3-amqp-types/src/transaction/"
+      ]
+    },
+    {
+      "id": "4.4.1",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Transactional Posting",
+      "anchor": "doc-idp111808",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#doc-idp111808",
+      "kind": "prose",
+      "section": "4.4",
+      "section_title": "Transactional Work",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/transaction/",
+        "fe2o3-amqp-types/src/transaction/"
+      ]
+    },
+    {
+      "id": "4.4.2",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Transactional Retirement",
+      "anchor": "doc-idp120240",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#doc-idp120240",
+      "kind": "prose",
+      "section": "4.4",
+      "section_title": "Transactional Work",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/transaction/",
+        "fe2o3-amqp-types/src/transaction/"
+      ]
+    },
+    {
+      "id": "4.4.3",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Transactional Acquisition",
+      "anchor": "doc-idp130640",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#doc-idp130640",
+      "kind": "prose",
+      "section": "4.4",
+      "section_title": "Transactional Work",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/transaction/",
+        "fe2o3-amqp-types/src/transaction/"
+      ]
+    },
+    {
+      "id": "4.4.4",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Interaction of Settlement with Transactions",
+      "anchor": "doc-idp145616",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#doc-idp145616",
+      "kind": "prose",
+      "section": "4.4",
+      "section_title": "Transactional Work",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/transaction/",
+        "fe2o3-amqp-types/src/transaction/"
+      ]
+    },
+    {
+      "id": "4.5.1",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Coordinator",
+      "anchor": "type-coordinator",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#type-coordinator",
+      "kind": "type",
+      "section": "4.5",
+      "section_title": "Coordination",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/transaction/",
+        "fe2o3-amqp/src/transaction/coordinator.rs",
+        "fe2o3-amqp/src/transaction/controller.rs",
+        "fe2o3-amqp/src/transaction/manager.rs"
+      ]
+    },
+    {
+      "id": "4.5.2",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Declare",
+      "anchor": "type-declare",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#type-declare",
+      "kind": "type",
+      "section": "4.5",
+      "section_title": "Coordination",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/transaction/",
+        "fe2o3-amqp/src/transaction/coordinator.rs",
+        "fe2o3-amqp/src/transaction/controller.rs",
+        "fe2o3-amqp/src/transaction/manager.rs"
+      ]
+    },
+    {
+      "id": "4.5.3",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Discharge",
+      "anchor": "type-discharge",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#type-discharge",
+      "kind": "type",
+      "section": "4.5",
+      "section_title": "Coordination",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/transaction/",
+        "fe2o3-amqp/src/transaction/coordinator.rs",
+        "fe2o3-amqp/src/transaction/controller.rs",
+        "fe2o3-amqp/src/transaction/manager.rs"
+      ]
+    },
+    {
+      "id": "4.5.4",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Transaction Id",
+      "anchor": "type-transaction-id",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#type-transaction-id",
+      "kind": "type",
+      "section": "4.5",
+      "section_title": "Coordination",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/transaction/",
+        "fe2o3-amqp/src/transaction/coordinator.rs",
+        "fe2o3-amqp/src/transaction/controller.rs",
+        "fe2o3-amqp/src/transaction/manager.rs"
+      ]
+    },
+    {
+      "id": "4.5.5",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Declared",
+      "anchor": "type-declared",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#type-declared",
+      "kind": "type",
+      "section": "4.5",
+      "section_title": "Coordination",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/transaction/",
+        "fe2o3-amqp/src/transaction/coordinator.rs",
+        "fe2o3-amqp/src/transaction/controller.rs",
+        "fe2o3-amqp/src/transaction/manager.rs"
+      ]
+    },
+    {
+      "id": "4.5.6",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Transactional State",
+      "anchor": "type-transactional-state",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#type-transactional-state",
+      "kind": "type",
+      "section": "4.5",
+      "section_title": "Coordination",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/transaction/",
+        "fe2o3-amqp/src/transaction/coordinator.rs",
+        "fe2o3-amqp/src/transaction/controller.rs",
+        "fe2o3-amqp/src/transaction/manager.rs"
+      ]
+    },
+    {
+      "id": "4.5.7",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Txn Capability",
+      "anchor": "type-txn-capability",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#type-txn-capability",
+      "kind": "type",
+      "section": "4.5",
+      "section_title": "Coordination",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/transaction/",
+        "fe2o3-amqp/src/transaction/coordinator.rs",
+        "fe2o3-amqp/src/transaction/controller.rs",
+        "fe2o3-amqp/src/transaction/manager.rs"
+      ]
+    },
+    {
+      "id": "4.5.8",
+      "part": 4,
+      "part_slug": "transactions",
+      "part_title": "Transactions",
+      "title": "Transaction Error",
+      "anchor": "type-transaction-error",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-transactions-v1.0-os.html#type-transaction-error",
+      "kind": "type",
+      "section": "4.5",
+      "section_title": "Coordination",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/transaction/",
+        "fe2o3-amqp/src/transaction/coordinator.rs",
+        "fe2o3-amqp/src/transaction/controller.rs",
+        "fe2o3-amqp/src/transaction/manager.rs"
+      ]
+    },
+    {
+      "id": "5.1",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "Security Layers",
+      "anchor": "section-security-layers",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#section-security-layers",
+      "kind": "section",
+      "section": "5.1",
+      "section_title": "Security Layers",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/auth/",
+        "fe2o3-amqp/src/sasl_profile/",
+        "fe2o3-amqp-types/src/sasl/"
+      ]
+    },
+    {
+      "id": "5.2.1",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "Alternative Establishment",
+      "anchor": "doc-tls-alternative-establishment",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#doc-tls-alternative-establishment",
+      "kind": "prose",
+      "section": "5.2",
+      "section_title": "TLS",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/connection/builder.rs",
+        "fe2o3-amqp/src/transport/mod.rs",
+        "fe2o3-amqp/src/transport/protocol_header.rs"
+      ]
+    },
+    {
+      "id": "5.2.2",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "Constant Definitions",
+      "anchor": "definition-idp33024",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#definition-idp33024",
+      "kind": "constants",
+      "section": "5.2",
+      "section_title": "TLS",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/connection/builder.rs",
+        "fe2o3-amqp/src/transport/mod.rs",
+        "fe2o3-amqp/src/transport/protocol_header.rs"
+      ]
+    },
+    {
+      "id": "5.3.1",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "SASL Frames",
+      "anchor": "doc-idp43536",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#doc-idp43536",
+      "kind": "prose",
+      "section": "5.3",
+      "section_title": "SASL",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/frames/sasl.rs",
+        "fe2o3-amqp/src/sasl_profile/",
+        "fe2o3-amqp/src/acceptor/sasl_acceptor.rs",
+        "fe2o3-amqp/src/acceptor/scram.rs",
+        "fe2o3-amqp-types/src/sasl/"
+      ]
+    },
+    {
+      "id": "5.3.2",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "SASL Negotiation",
+      "anchor": "doc-idp51040",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#doc-idp51040",
+      "kind": "prose",
+      "section": "5.3",
+      "section_title": "SASL",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/frames/sasl.rs",
+        "fe2o3-amqp/src/sasl_profile/",
+        "fe2o3-amqp/src/acceptor/sasl_acceptor.rs",
+        "fe2o3-amqp/src/acceptor/scram.rs",
+        "fe2o3-amqp-types/src/sasl/"
+      ]
+    },
+    {
+      "id": "5.3.3.1",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "Sasl Mechanisms",
+      "anchor": "type-sasl-mechanisms",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#type-sasl-mechanisms",
+      "kind": "type",
+      "section": "5.3.3",
+      "section_title": "Security Frame Bodies",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/sasl/mod.rs",
+        "fe2o3-amqp-types/src/sasl/mechanisms.rs",
+        "fe2o3-amqp/src/frames/sasl.rs"
+      ]
+    },
+    {
+      "id": "5.3.3.2",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "Sasl Init",
+      "anchor": "type-sasl-init",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#type-sasl-init",
+      "kind": "type",
+      "section": "5.3.3",
+      "section_title": "Security Frame Bodies",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/sasl/mod.rs",
+        "fe2o3-amqp-types/src/sasl/mechanisms.rs",
+        "fe2o3-amqp/src/frames/sasl.rs"
+      ]
+    },
+    {
+      "id": "5.3.3.3",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "Sasl Challenge",
+      "anchor": "type-sasl-challenge",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#type-sasl-challenge",
+      "kind": "type",
+      "section": "5.3.3",
+      "section_title": "Security Frame Bodies",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/sasl/mod.rs",
+        "fe2o3-amqp-types/src/sasl/mechanisms.rs",
+        "fe2o3-amqp/src/frames/sasl.rs"
+      ]
+    },
+    {
+      "id": "5.3.3.4",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "Sasl Response",
+      "anchor": "type-sasl-response",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#type-sasl-response",
+      "kind": "type",
+      "section": "5.3.3",
+      "section_title": "Security Frame Bodies",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/sasl/mod.rs",
+        "fe2o3-amqp-types/src/sasl/mechanisms.rs",
+        "fe2o3-amqp/src/frames/sasl.rs"
+      ]
+    },
+    {
+      "id": "5.3.3.5",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "Sasl Outcome",
+      "anchor": "type-sasl-outcome",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#type-sasl-outcome",
+      "kind": "type",
+      "section": "5.3.3",
+      "section_title": "Security Frame Bodies",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/sasl/mod.rs",
+        "fe2o3-amqp-types/src/sasl/mechanisms.rs",
+        "fe2o3-amqp/src/frames/sasl.rs"
+      ]
+    },
+    {
+      "id": "5.3.3.6",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "Sasl Code",
+      "anchor": "type-sasl-code",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#type-sasl-code",
+      "kind": "type",
+      "section": "5.3.3",
+      "section_title": "Security Frame Bodies",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp-types/src/sasl/mod.rs",
+        "fe2o3-amqp-types/src/sasl/mechanisms.rs",
+        "fe2o3-amqp/src/frames/sasl.rs"
+      ]
+    },
+    {
+      "id": "5.3.4",
+      "part": 5,
+      "part_slug": "security",
+      "part_title": "Security",
+      "title": "Constant Definitions",
+      "anchor": "definition-idm36752",
+      "url": "https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-security-v1.0-os.html#definition-idm36752",
+      "kind": "constants",
+      "section": "5.3",
+      "section_title": "SASL",
+      "normative": true,
+      "surfaces": [
+        "fe2o3-amqp/src/frames/sasl.rs",
+        "fe2o3-amqp/src/sasl_profile/",
+        "fe2o3-amqp/src/acceptor/sasl_acceptor.rs",
+        "fe2o3-amqp/src/acceptor/scram.rs",
+        "fe2o3-amqp-types/src/sasl/"
+      ]
+    }
+  ]
+}

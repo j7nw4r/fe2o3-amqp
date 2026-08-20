@@ -6,3 +6,9 @@
 
 *flamegraph.svg
 *.env
+
+# Linked worktrees used by the agent pipelines
+/.claude/worktrees/
+
+# Downloaded specification HTML, cached by the manifest generator
+/docs/spec-audit/bin/.cache/
